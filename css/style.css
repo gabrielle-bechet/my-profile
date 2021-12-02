@@ -1,0 +1,101 @@
+body {
+	text-align: center;
+	background-color: #fde2e4;
+}
+
+h1 {
+	color: b5838d;
+	font-size: 50px;
+	font-family: 'Gwendolyn', cursive;
+
+}
+
+img {
+	height: 200px;
+	border-radius: 50px;
+}
+
+h2 {
+	color: #e5989b;
+	font-family: 'Dosis', sans-serif;
+}
+
+p {
+	font-family: 'Dosis', sans-serif;
+	color: #6d6875;
+	font-size: 18px;
+}
+
+.first-link {
+	background-color: #e5989b;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+	font-family: 'Dosis', sans-serif;
+}
+
+.first-link:hover {
+	background-color: white;
+	color: #e5989b;
+}
+
+.container {
+	width: 850px;
+	margin: 10px auto;
+}
+
+.introduction {
+	background: white;
+	padding: 25px;
+	margin: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 8px;
+}
+
+.cardwhite {
+	background: white;
+	padding: 10px;
+	margin: 30px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 8px;
+	}
+
+.other-picture {
+	height: 80px;
+	border-radius: 50%;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.follow-link {
+	text-decoration: none;
+	color: black;
+	font-family: 'Dosis', sans-serif;
+	background-color: #e5989b;
+	text-align: center;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.follow-link:hover {
+	background-color: white;
+	color: #e5989b;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
